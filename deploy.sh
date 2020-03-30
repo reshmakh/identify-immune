@@ -11,6 +11,9 @@ aws s3 cp map-city.csv s3://identify-immune-www/ --acl public-read
 aws s3 cp logo.png s3://identify-immune-www/ --acl public-read
 aws s3 cp PositiveResult.png s3://identify-immune-www/ --acl public-read
 aws s3 cp mvp.css s3://identify-immune-www/ --acl public-read
+aws s3 cp mail.png s3://identify-immune-www/ --acl public-read
+aws s3 cp phone.png s3://identify-immune-www/ --acl public-read
+aws s3 cp team.png s3://identify-immune-www/ --acl public-read
 
 
 # Invalidate cloudfront
