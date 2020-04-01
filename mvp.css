@@ -240,12 +240,18 @@ sup {
 /* Links */
 a {
     color: var(--color-text);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
     filter: brightness(var(--hover-brightness));
     text-decoration: underline;
+}
+
+li a,
+h2 a{
+    filter: brightness(var(--hover-brightness));
+    text-decoration: none;
 }
 
 a b,
@@ -311,6 +317,11 @@ form {
 }
 
 form header {
+    margin: 10px;
+    padding: 10px;
+}
+
+form p {
     margin: 10px;
     padding: 10px;
 }

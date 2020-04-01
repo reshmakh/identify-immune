@@ -20,9 +20,9 @@
             <a href="index.html"><img src="logo.png" height="120"></a>
             <ul>
                 <li>Home</li>
-                <li><a href="#volunteer">Volunteer</a></li>
-                <li><a href="#privacy">Privacy</a></li>
-                <li><a href="team.html">About</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="team.html">Team</a></li>
                 <li><a href="mailto:hello@identifyimmune.org">Contact Us</a></li>
             </ul>
         </nav>
@@ -40,9 +40,7 @@
     <main>
         <section>
             <header>
-                <a name="learn">
-                    <h2>How does it work?</h2>
-                </a>
+                <h2><a name="learn">How does it work?</a></h2>
                 <p>Volunteers who have tested positive for COVID-19 are needed. During a time of need, mobilizing
                     exactly the right volunteers at the right time is hard and slow. Register now to save time and
                     lives.</p>
@@ -50,28 +48,24 @@
             <aside>
                 <a href="#volunteer"><img src="phone.png" height="100"></a>
                 <h3>Register</h3>
-                <p>If you have tested positive for COVID-19, our platform will securely, automatically identify ways you
-                    can support your community. <a href="#volunteer">Registering</a> only takes a few seconds.</p>
+                <p>Fill out key information and upload a your test results. <a href="#volunteer">Registering</a> only takes a few minutes.</p>
             </aside>
             <aside>
                 <img src="mail.png" height="100">
                 <h3>Receive Email</h3>
-                <p>Check your email for specific volunteer opportunities (e.g. donate blood), consent to have your
-                    contact information shared with the volunteer coordinator and proceed <a
-                        href="#privacy"><sup>Privacy</sup></a></p>
+                <p>Our platform will identify ways you can support your community and email you with specific volunteer opportunities (e.g. donate blood).</p>
             </aside>
             <aside>
-                <a href="volunteer.html"><img src="team.png" height="100"></a>
+                <img src="team.png" height="100">
                 <h3>Volunteer</h3>
-                <p>Those who are immune and not contagious will be key in helping others. Volunteer where and when you
-                    can. <a href="volunteer.html"><sup>Opportunity list</sup></a></p>
-            </aside>
+                <p>Opt in to have your contact information shared with the volunteer coordinator and they will reach out with next steps.</p>
+                </aside>
         </section>
         <hr>
         <section>
             <header>
-                <a name="map">
-                    <h2>Volunteer Summary</h2>
+                
+                    <h2><a name="map">Volunteer Summary</a></h2>
                     <p>See a list of <a href="volunteer.html">volunteer opportunities</a>.</p>
                 </a>
                 <div id="map-placeholder"></div>
@@ -85,12 +79,12 @@
             <h2>Why volunteer?</h2>
             <p>There are three major ways that volunteers can help.</p>
             <ul>
-                <li><u>Giving Blood (Convalescent plasma):</u> there is some evidence that antibodies from blood of
+                <li>Giving Blood (Convalescent plasma): there is some evidence that antibodies from blood of
                     those who have recovered can help the very ill. Ongoing research may benefit with your blood
                     donation in your area, particuarly in expediting the process to finding a solution.</li>
-                <li><u>Participate in Research:</u> We need to understand how to identify who is immune but not
+                <li>Participate in Research: We need to understand how to identify who is immune but not
                     contagious, and volunteers may be needed to develop tests and diagnostics.</li>
-                <li><u>Make a difference:</u> Once we understand who is immune and not contagious, those individuals
+                <li>Make a difference: Once we understand who is immune and not contagious, those individuals
                     will be instrumental in assisting medical personnel.</li>
             </ul>
             <div style="text-align: center;">
@@ -171,10 +165,9 @@
         <section>
             <form action="https://www.medplum.com/api/identify_immune" method="POST" enctype="multipart/form-data">
                 <header>
-                    <a name="volunteer">
-                        <h2>Volunteer Registration</h2>
-                    </a>
+                    <h2> <a name="register">Volunteer Registration</a></h2>
                 </header>
+                <p>Your data will not be shared with a volunteer partner <br> until you opt in. See our <a href="#privacy">Privacy Policy</a></p>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" size="40" placeholder="Name">
                 <label for="email">Email:</label>
@@ -453,16 +446,12 @@
                 </select>
                 <label for="other">Anything else:</label>
                 <textarea cols="40" rows="5" id="other"></textarea>
-                <i>Data subject Identify the Immune <a href="#privacy">Privacy Policy</a></i>
-                <br>
                 <button type="submit">Submit</button>
             </form>
         </section>
         <hr>
         <article>
-            <a name="privacy">
-                <h2>Privacy</h2>
-            </a>
+                <h2><a name="privacy">Privacy</a></h2>
             <p>We take the following measures to protect your privacy.</p>
             <aside>
                 <p>You will be given the opportunity to opt in or out to each volunteer opportunity.</p>
