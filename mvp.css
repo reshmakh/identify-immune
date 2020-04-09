@@ -62,6 +62,14 @@ body {
     padding: 40px;
     justify-content: center;
 }
+#banner {
+    background: #dbd2de;
+    color: var(--color-text);
+    padding: 0.01rem 0.8rem;
+    justify-content: var(--justify-important);
+    font-weight: bold;
+
+}
 
 header,
 main {
@@ -101,10 +109,6 @@ section aside {
     padding: 1.25rem;
     width: var(--width-card);
     text-align: var(--justify-important);
-}
-
-section aside:hover {
-    box-shadow: var(--box-shadow) var(--color-bg-secondary);
 }
 
 section aside img {
